@@ -1,0 +1,24 @@
+.bread-crumb-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bread-crumb-list li{
+  list-style: none;
+  color: black;
+}
+
+.bread-crumb-list li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active a {
+  background-color: pink;
+  text-decoration: none;
+}
+
+.disabled {
+  pointer-events: none;
+}
